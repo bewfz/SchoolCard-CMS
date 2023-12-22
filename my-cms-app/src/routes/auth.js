@@ -1,10 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const AuthController = require('../controllers/authController');
-const authController = new AuthController();
+const authController = require('../controllers/authController');
 
+// 用户注册
 router.post('/register', authController.register);
+
+// 用户登录
 router.post('/login', authController.login);
-router.post('/logout', authController.logout);
 
 module.exports = router;
