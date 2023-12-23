@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const jwtMiddleware = require('./middleware/jwt');
 const routes = require('./routes');
 
 const app = express();
