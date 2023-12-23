@@ -1,4 +1,4 @@
-# My CMS App
+# SchoolCard Simple CMS
 
 This is a CMS application built with Node.js, Express, MySQL, and JWT for authentication. 
 
